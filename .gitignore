@@ -1,0 +1,31 @@
+# Python / Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Streamlit
+.streamlit/config.toml.bak
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Pipeline generated outputs / large data caches
+data/forecast_output.csv
+models/*.pkl
+!models/.gitkeep
+
+# Temporary / Scratch files
+scratch/
+*.tmp
